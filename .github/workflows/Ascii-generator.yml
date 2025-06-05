@@ -12,10 +12,8 @@ jobs:
        uses: actions/checkout@v4   
 
         
-    - name: Install Cowsay Program
-      run: sudo apt-get install cowsay -y
 
     - name: Excecuting shell script
       run: |
-       chmod +x shell.sh
-       ./shell.sh
+       chmod +x shell-ascii.sh
+       ./shell-ascii.sh
